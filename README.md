@@ -58,6 +58,9 @@ hiera_hash containing arrays breaks deep_merge
 escaping in hiera pre 1.4 https://tickets.puppetlabs.com/browse/HI-127
 
     %%{}{type}
+    
+Can't find resources with Puppet 3.0.0
+   $:.unshift File.join(File.dirname(__FILE__),  'fixtures', 'modules', 'registry', 'lib')
 
 ##Other useful info
 
