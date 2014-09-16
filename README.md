@@ -60,7 +60,16 @@ escaping in hiera pre 1.4 https://tickets.puppetlabs.com/browse/HI-127
     %%{}{type}
     
 Can't find resources with Puppet 3.0.0
-   $:.unshift File.join(File.dirname(__FILE__),  'fixtures', 'modules', 'registry', 'lib')
+
+    $:.unshift File.join(File.dirname(__FILE__),  'fixtures', 'modules', 'registry', 'lib')
+   
+Also some serious bugs in puppet 3.0.0
+
+    Registry_key[HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+     Failure/Error: it { should contain_registry_key($p_reg_key) }
+     Puppet::Error:
+       expected next element in array at ',
+         "requirements": '! at line 4 on node liams-macbook-pro.local
 
 ##Other useful info
 
