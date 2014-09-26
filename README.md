@@ -45,8 +45,6 @@ https://groups.google.com/forum/#!searchin/puppet-users/ensure_resource/puppet-u
 
 multi-line rspec-puppet tests - breaks ruby 1.8.7
 
-pin puppetlabs_spec_helper to 0.4.1
-
 pin rspec to 2.99.0
 
 Square brackets in titles
