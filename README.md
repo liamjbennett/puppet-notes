@@ -5,7 +5,9 @@ A set of notes on patterns, bugs and other useful information.
 ##Design Patterns
 
 
-Comma at the end of a resource - breaks ruby 1.8.7
+Comma at the end of a resource - should be added to puppet for better git diffs
+Comma at the end of hash in a spec test - breaks ruby 1.8.7
+
 params vs config hash
 
 validate osfamily
